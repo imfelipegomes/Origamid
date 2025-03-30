@@ -6,16 +6,20 @@
   grid-template-columns: 1fr 1fr;
 }
 
-.foto {
-  grid-column: 1 / 3;
+.titulo {
+  grid-column: 2;
+  text-align: right;
+}
+
+.preco {
+  place-self: start end;
 }
 
 .descricao {
-  grid-column: 1 / 3;
+  text-align: right;
 }
-
 .comprar {
-  grid-column: 1 / 3;
+  align-self: start;
 }
 
 /* Estilos gerais */
