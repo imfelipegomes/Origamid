@@ -13,4 +13,5 @@ h2 {
   border: 1px solid #d7d7d7;
   padding: 20px;
   margin: 0px;
+  flex: 1; /* Flex é um atalho para flex-grow, flex-shrink e flex-basis */
 }
