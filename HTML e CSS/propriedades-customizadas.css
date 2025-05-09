@@ -1,0 +1,41 @@
+/* Definindo as propriedades customizáveis para o tema escuro */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fundo: #333;
+    --texto1: #fff;
+    --text02: #ddd;
+  }
+}
+
+/* Definindo as propriedades customizáveis para o tema claro */
+@media (prefers-color-sheme: light) {
+  :root {
+    --fundo: #fff;
+    --texto1: #333;
+    --text02: #444;
+  }
+}
+
+:root {
+  --fonte-pequena: 1rem;
+  --laranja: #ff7f00; /* Definindo outra propriedade customizável */
+  --fonte-grande: 3rem; /* Também é possível adicionar outros valores ao invés de só cor */
+  --fundo: #fff;
+  --texto1: #333;
+  --text02: #444;
+  --primary-color: #3498db; /* O ideal é que o nome em si seja autoexplicativo, como primary-color, ou seja, a cor primaria do site ou algo que faça sentido para o projeto */
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.rem;
+  background: var(--fundo);
+}
+
+h1 {
+  color: var(--texto1);
+}
+
+p {
+  color: var(--texto2);
+}

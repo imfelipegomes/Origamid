@@ -20,8 +20,32 @@
     <label for="saida">Saída do Hotel</label>
     <input type="date" id="saida" name="saida" required placeholder="Digite a data de saída">
 
+    <label for="parcelas"></label>
+    <select name="parcelas" id="parcelas">
+      <option value="1x">1x de 200,00</option>
+      <option value="2x">2x de 300,00</option>
+      <option value="3x">3x de 400,00</option>
+    </select>
+
+    <div class="radio">
+      <input type="radio" id="retirada" name="retirada">
+      <label for="retirada">Retirar no local</label>
+    </div>
+    <div class="radio">
+      <input type="radio" id="entrega" name="retirada">
+      <label for="entrega">Entregar em meu endereço</label>
+    </div>
+
+    <label for="mensagem">Mensagem</label>
+    <textarea name="mensagem" id="mensagem" rows="5"></textarea>
+
     <label for="senha">Senha</label>
     <input type="password" id="senha" name="senha" required placeholder="Digite sua senha">
+
+    <div class="checkbox">
+      <input type="checkbox" id="termos" name="termos" required>
+      <label for="termos">Aceito os termos e condições</label>
+    </div>
 
     <button>Enviar</button>
   </form>
