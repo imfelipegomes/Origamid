@@ -1,15 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 
 .texto-grande {
-  font-size: 64px;
+  font-size: 4rem;
   line-height: 1.125;
   font-family: "Sora", sans-serif;
   font-weight: 800;
 }
 
 .texto-medio {
-  font-size: 25px;
-  line-height: 1.125;
+  font-size: 1.9rem;
+  line-height: 1.5;
   font-family: "Sora", sans-serif;
-  font-weight: 300;
+  font-weight: 800;
+}
+
+.texto-pequeno {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
 }

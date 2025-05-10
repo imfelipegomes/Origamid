@@ -15,8 +15,12 @@
   color: var(--cor-preto-maximo);
 }
 
-.cor-cinza {
+.cor-cinza-claro {
   color: var(--cor-cinza-claro);
+}
+
+.cor-cinza {
+  color: var(--cor-cinza);
 }
 
 .cor-azul-claro {
