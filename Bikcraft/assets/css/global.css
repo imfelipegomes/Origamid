@@ -1,15 +1,7 @@
-:root {
-  --cor-primaria: #1c60fd;
-  --cor-secundaria: #0b4ce2;
-  --cor-texto: #b2b2b2;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
-
 body {
   margin: 0px;
-  font-family: "Sora", sans-serif;
   padding-bottom: 600px;
+  color: #111;
 }
 
 h1, ul, p {

@@ -1,0 +1,32 @@
+:root {
+  --cor-preto-maximo: #000;
+  --cor-preto-minimo: #111;
+  --cor-branco: #fff;
+  --cor-cinza: #2e2e2e;
+  --cor-cinza-claro: #b2b2b2;
+  --cor-azul-detalhes: #1c60fd;
+}
+
+.cor-branco {
+  color: var(--cor-branco);
+}
+
+.cor-preto {
+  color: var(--cor-preto-maximo);
+}
+
+.cor-cinza {
+  color: var(--cor-cinza-claro);
+}
+
+.cor-azul-claro {
+  color: var(--cor-azul-detalhes);
+}
+
+.cor-azul-medio {
+  color: #0b4ce2;
+}
+
+.cor-azul-escuro {
+  color: #011d5e;
+}
