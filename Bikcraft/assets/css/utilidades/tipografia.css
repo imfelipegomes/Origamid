@@ -20,3 +20,17 @@
   font-family: "Sora", sans-serif;
   font-weight: 400;
 }
+
+.texto-menor {
+  font-size: 1rem;
+  line-height: 1.3;
+  font-family: "Sora", sans-serif;
+  font-weight: 200;
+}
+
+.texto-li-seguros {
+  font-size: 1.3rem;
+  line-height: 1.3;
+  font-family: "Sora", sans-serif;
+  font-weight: 400;
+}

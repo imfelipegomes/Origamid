@@ -19,10 +19,19 @@
   font-size: 18px;
   line-height: 1.33;
   font-weight: 800;
+  max-width: max-content;
 }
 
 .botao:hover {
   background: linear-gradient(#0b4ce2,#011d5e); 
+}
+
+.botao.secundario {
+  background: var(--cor-cinza);
+}
+
+.botao.secundario:hover {
+  background: var(--cor-cinza-claro);
 }
 
 @media (max-width: 600px) {
